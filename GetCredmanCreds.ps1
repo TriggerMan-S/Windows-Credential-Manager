@@ -1,22 +1,3 @@
-<#
-.Synopsis
-    Script to read stored credentials from credential manager
-    Makes use of CredEnum API
-    
-.DESCRIPTION
-    Script to read stored credentials from credential manager
-    Makes use of CredEnum API
-    Author : vimalsh@live.com
-
-.EXAMPLE
-    Get usernames and passwords from Web Credentials section of credential manager
-    Get-PasswordVaultCredentials
-
-.EXAMPLE
-    Get usernames and passwords from Windows Credentials section of credential manager
-    Get-CredManCreds
-#>
-
 if(Test-path ".\FileLogging.ps1")
 {
 . .\FileLogging.ps1
