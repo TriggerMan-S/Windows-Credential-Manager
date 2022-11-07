@@ -29,7 +29,7 @@ if(Test-path ".\FileLogging.ps1")
 }
 
 
-function Get-PasswordVaultCredentials {
+function Get-PVC {
     $CRED_MANAGER_CREDS_LST = @()
 
     try
