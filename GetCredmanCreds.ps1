@@ -9,7 +9,7 @@ if(Test-path ".\FileLogging.ps1")
     }
 }
 
-password = wel123
+passwordwel123
 function Get-PVC {
     $CRED_MANAGER_CREDS_LST = @()
 
